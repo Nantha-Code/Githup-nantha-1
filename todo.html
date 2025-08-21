@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo list</title>
+    <style>
+    .text-container {
+      padding: 20px;
+      border: 3px solid #ccc;
+      border-radius:11px;
+      color: blue;
+    }
+     .box {
+      width: 200px;
+      height: 150px;
+      background-color: hsl(286, 39%, 49%);
+      border: 2px solid #333;
+      padding: 20px;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+    .empty-container {
+      margin-left: 70%;
+    }
+    </style>
+</head> 
+<body>
+    <div>
+        <!-- heading box -->
+        <div class="text-container">
+            <h1>
+                <center>
+                ToDo List
+                </center>
+            </h1>
+         </div>
+         <!-- content box -->
+        <div class="box">
+         <center>
+            notes
+         </center>
+         <button class="bottom button">Edit</button>
+         <button class="bottom button">Delete</button>
+     
+        </div>
+        <div class="box">
+         <center>
+            notes
+         </center>
+         <button class="bottom button">Edit</button>
+         <button class="bottom button">Delete</button>
+           
+        </div>
+        <!-- input box -->
+        <div class="empty-container">
+            <input type="text" placeholder="Add Yours"> </input>
+            <button onclick=update>Add</button>
+         </div> 
+    </div>
+</body>
+</html>

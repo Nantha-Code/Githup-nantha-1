@@ -1,0 +1,18 @@
+ .text-container {
+      padding: 20px;
+      border: 3px solid #ccc;
+      border-radius:11px;
+      color: blue;
+    }
+     .box {
+      width: 200px;
+      height: 150px;
+      background-color: hsl(286, 39%, 49%);
+      border: 2px solid #333;
+      padding: 20px;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+    .empty-container {
+      margin-left: 70%;
+    }
